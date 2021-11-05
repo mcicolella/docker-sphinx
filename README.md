@@ -49,3 +49,7 @@ WORKDIR /docs
 ADD requirements.txt /docs
 RUN pip3 install -r requirements.txt
 ```
+
+## Credits
+
+Original code from https://github.com/sphinx-doc/docker
